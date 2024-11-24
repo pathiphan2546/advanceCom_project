@@ -1,7 +1,7 @@
 #ทำใน Google colab
-import gradio as gr # type: ignore
-import torch # type: ignore
-import torchvision.transforms as transforms # type: ignore
+import gradio as gr
+import torch
+import torchvision.transforms as transforms
 from torchvision.models.detection import fasterrcnn_resnet50_fpn
 import pygame
 import requests
